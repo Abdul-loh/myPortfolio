@@ -14,6 +14,7 @@ import { Toaster } from "react-hot-toast"; // 👈 import
 function App() {
   return (
     <BrowserRouter>
+
       <div className="relative z-0 bg-[#050816]">
         <div
           className="bg-cover bg-no-repeat bg-center min-h-screen"
