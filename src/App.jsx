@@ -11,6 +11,8 @@ import { StarsCanvas } from "./components/canvas";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast"; // 👈 import
 
+import Top from "./components/Top";
+
 function App() {
   return (
     <BrowserRouter>
@@ -26,8 +28,15 @@ function App() {
         <About />
         <Experience />
         <Tech />
+        <div className="relative z-0 flex">
+      
         <Works />
-        <Feedbacks />
+     
+        </div> 
+        <div className="relative flex">
+          <Feedbacks />
+          <Top/>
+          </div>
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

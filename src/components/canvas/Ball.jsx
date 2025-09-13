@@ -31,6 +31,7 @@ const Ball = (props) => {
           scale={1}
           map={decal}
           flatShading
+         
         />
       </mesh>
     </Float>
@@ -43,6 +44,7 @@ const BallCanvas = ({ icon }) => {
       frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+              
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />

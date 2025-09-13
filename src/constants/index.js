@@ -1,23 +1,11 @@
-import eleto  from '../assets/eleto.jpg'
-import abdull  from '../assets/abdull.jpg'
-import godwin  from '../assets/godwin.jpg'
+import eleto from '../assets/eleto.jpg';
+import abdull from '../assets/abdull.jpg';
+import godwin from '../assets/godwin.jpg';
 import {
   mobile,
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -25,96 +13,35 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "contact", title: "Contact" },
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  { title: "Web Developer", icon: web },
+  { title: "React Native Developer", icon: mobile },
+  { title: "Backend Developer", icon: backend },
+  { title: "Content Creator", icon: creator },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  { name: "HTML 5", icon: "/html.png" },
+  { name: "CSS 3", icon: "/css.png" },
+  { name: "JavaScript", icon: "/javascript.png" },
+  { name: "TypeScript", icon: "/typescript.png" },
+  { name: "React JS", icon: "/reactjs.png" },
+  { name: "Redux Toolkit", icon: "/redux.png" },
+  { name: "Tailwind CSS", icon: "/tailwind.png" },
+  { name: "Node JS", icon: "/nodejs.png" },
+  { name: "MongoDB", icon: "/mongodb.png" },
+  { name: "Three JS", icon: "/threejs.png" },
+  { name: "Git", icon: "/git.png" },
+  { name: "Figma", icon: "/figma.png" },
+  { name: "Docker", icon: "/docker.png" },
 ];
 
 const experiences = [
@@ -177,8 +104,8 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but AutoDevx proved me wrong.",
     name: "Eleto Ismail",
-    designation: "CEO ",
-    company:"ELT-TechX",
+    designation: "CEO",
+    company: "ELT-TechX",
     image: eleto,
   },
   {
@@ -203,20 +130,11 @@ const projects = [
   {
     name: "Clothes Store",
     description:
-      "Web-based platform that allows users to search, book, and manage clothes  from various providers, providing a convenient and efficient design outfit.",
+      "Web-based platform that allows users to search, book, and manage clothes from various providers, providing a convenient and efficient design outfit.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "wixHeadless",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "wixHeadless", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: carrent,
     source_code_link: "https://github.com/Abdul-loh/cartui.git",
@@ -224,20 +142,11 @@ const projects = [
   {
     name: "Job IT",
     description:
-      "Web application that enables users to search for foods anywhere you are and you will hav your food whenever location you are.",
+      "Web application that enables users to search for foods anywhere you are and have your food delivered wherever your location is.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "restapi", color: "green-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
     ],
     image: jobit,
     source_code_link: "https://github.com/Abdul-loh/nexttutorial.git",
@@ -245,20 +154,11 @@ const projects = [
   {
     name: "Trip Guide",
     description:
-      "A comprehensive blog site platform that allows users to get update on latest news that is happening in the world at that moment, with magazine reading.",
+      "A comprehensive blog site platform that allows users to get updates on the latest news happening around the world, with magazine-style reading.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mangoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "mongoDB", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: tripguide,
     source_code_link: "https://github.com/Abdul-loh/Blogtutorial.git",
