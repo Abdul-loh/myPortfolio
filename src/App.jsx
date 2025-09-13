@@ -10,7 +10,7 @@ import Feedbacks from "./components/Feedbacks";
 import { StarsCanvas } from "./components/canvas";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast"; // 👈 import
-
+import hero from "././assets/herobg.png";
 import Top from "./components/Top";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <div className="relative z-0 bg-[#050816]">
         <div
           className="bg-cover bg-no-repeat bg-center min-h-screen"
-          style={{ backgroundImage: "url('/src/assets/herobg.png')" }}
+           style={{ backgroundImage: `url(${hero})` }}
         >
           <Navbar />
           <Hero />

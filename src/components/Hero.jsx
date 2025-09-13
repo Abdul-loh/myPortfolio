@@ -33,7 +33,7 @@ const Hero = () => {
       
       <div className='absolute xs:bottom-3 -bottom-0 w-full flex justify-center items-center cursor-pointer'>
       <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4  border-r-green-700 border-l-yellow-600 border-b-blue-700  border-t-red-700 flex justify-center items-start p-2'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
