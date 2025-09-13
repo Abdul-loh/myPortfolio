@@ -31,7 +31,7 @@ const Hero = () => {
        <img src={heroIma}alt="cover" className="object-contain" />
        </div>
       
-      <div className='absolute xs:bottom-0 bottom-15 w-full flex justify-center items-center cursor-pointer'>
+      <div className='absolute bottom-25 w-full flex justify-center items-center cursor-pointer '>
       <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4  border-r-green-700 border-l-yellow-600 border-b-blue-700  border-t-red-700 flex justify-center items-start p-2'>
             <motion.div
