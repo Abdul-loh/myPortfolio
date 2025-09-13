@@ -151,6 +151,38 @@
   }
 }
 
+.worksbackground{
+  position: relative;
+  animation-name: worksbackground ;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  transform: translateZ(0);
+  background-color: rgba(212, 64, 64, 0.452);
+  animation-timing-function: ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@keyframes worksbackground {
+  0% {
+    background-color: #f00;
+  }
+  25% {
+    background-color: rgb(235, 240, 237);
+  }
+  50% {
+    background-color: rgb(42, 187, 90);
+  }
+    70% {
+    background-color: #915eff;
+  }
+  100% {
+   background-color: rgb(235, 240, 237);
+  }
+}
+
+
+
+
+
 
 @keyframes mulShdSpin {
   0%,

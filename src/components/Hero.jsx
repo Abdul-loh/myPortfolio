@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import heroIma from "../assets/heroComputer.png";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -27,11 +27,11 @@ const Hero = () => {
         </div>
       </div>
      
-     <div className="absolute inset-0 top-0 w-full h-full">
-       <ComputersCanvas />
+     <div className="absolute inset-0 top-37 w-full h-full flex items-center justify-center">
+       <img src={heroIma}alt="cover" className="object-contain" />
        </div>
       
-      <div className='absolute xs:bottom-3 -bottom-0 w-full flex justify-center items-center cursor-pointer'>
+      <div className='absolute xs:bottom-0 bottom-15 w-full flex justify-center items-center cursor-pointer'>
       <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4  border-r-green-700 border-l-yellow-600 border-b-blue-700  border-t-red-700 flex justify-center items-start p-2'>
             <motion.div
