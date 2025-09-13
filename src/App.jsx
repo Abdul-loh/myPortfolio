@@ -13,10 +13,11 @@ import { Toaster } from "react-hot-toast"; // 👈 import
 import hero from "././assets/herobg.png";
 import Top from "./components/Top";
 
+
 function App() {
   return (
     <BrowserRouter>
-
+ 
       <div className="relative z-0 bg-[#050816]">
         <div
           className="bg-cover bg-no-repeat bg-center min-h-screen"
